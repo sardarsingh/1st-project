@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>6th_dec</title>
+	<style>
+		.man{
+			background-color: #333;
+			color: red;
+			text-align: center;
+			margin: 15px;
+			padding: 15px;
+		}
+		.man1{
+			float: left;
+			background-color: white;
+			color: blue;
+			text-align: center;
+			margin: 10px;
+			
+				}
+		.man2{
+			float: left;
+			background-color: #333;
+			color: orange;
+			text-align: right;
+			margin: 30px;
+			
+
+		}	
+		.man3{
+			float: right;
+			background-color: #333;
+			color:orange;
+			text-align: center;
+			margin: 12px;
+			
+
+		}	
+		#mk{
+			width: 400px
+		}
+		table ,th,td {
+			text-align: center;
+			width: 50%;
+			font-family: tahoma;
+			border: 1px solid black;
+		}
+		table{
+			border-collapse: collapse;
+		}
+		.col1{background-color: #fcd}
+		.col2{background-color: #cfd}
+		.col3{background-color: #cdf}
+
+		
+
+		</style>
+</head>
+<body style="margin: 15px">
+	<div>
+		<div class="man">
+			<h1>
+				vulpine code
+			</h1>
+
+		</div>
+		<div class="man1">
+			<p><a href="file:///office/development/www/man" target="_blank">home</a></p>
+			<p><a href="">about</a></p>
+
+		</div>
+		<div class="man2">
+			<h1>Beawar</h1>
+		</div>
+		<section>
+		<div class="man3">
+			<h1>about us</h1>
+			<p> abc</p>
+		</div>
+		<div style="text-align: center;">
+			<div id="outer">
+			<div id="form">
+				<h1>
+					Login/Signup
+				</h1>
+				 <div>
+				 	<form id="f1" onsubmit="return dispaly()" method="post" autocomplete="on">
+					<p>user name
+						<input type="text" name="text1"/></p>
+					<p>password <input type="password" name="password1"/></p>
+					  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="submit">
+					 <input type="reset" value="reset">
+
+					<p>selection list<br>
+						<select name="select1">
+							<option value="" disabled selected>-- Selecct any bank-->
+							</option>
+							<option value="SBI">SBI</option>
+							<option value="BOB">BOB</option>
+							<option value="HDFC">HDFC</option>
+							<option value="ICICI">ICICI</option>
+							<option value="AXIS">AXIS</option>
+							<option value="IDBI">IDBI</option>
+							
+						</select>
+					</p>
+					<p> <input type="submit" value="click" onclick="return dispaly()"/></p>
+					<div style="float: right;">
+					</p><p>cheboxes</p>
+					<p>
+						red <input type="checkbox" name="red"/> &nbsp;
+						blue<input type="checkbox" name="blue"/> &nbsp;
+						green<input type="checkbox" name="green"> &nbsp;
+					</p>
+					<p>
+						Radio buttons
+					</p>
+					<p>
+						tall <input type="Radio" name="size" value="tall"/> &nbsp;
+						fat <input type="Radio" name="size" value="fat"/> &nbsp;
+						venti <input type="Radio" name="size" value="venti"/> &nbsp;
+						<p>
+							<input type="submit" value="submit" onclick="return dispaly()"/>
+						</p>
+ 					</p>
+ 					</form>
+ 				</div>
+ 				<div id="results"></div>
+ 				<p>result</p>
+ 			</div>
+
+					
+				
+			
+		
+		</section>
+		<p>
+			<p id="mn"></p>
+			<p id="mk"></p>
+			progress: <meter> id="mn" value="0" max="100"><span id="mk">0</span>%</meter>
+		</p>
+		<script>
+			var a;
+			var b;
+			var pValue;
+			function lk() {
+
+				a = document.getElementById("mn")
+				b = document.getElementById("mk")
+				setInterval{updateProgress, 50};
+			}
+			function updateProgress() {
+				pValue +=1;
+				if (pValue > 100) pValue = 1;
+				a.value = pValue;
+				textValue.textContent = pValue;
+			}
+			window.onload = lk;
+
+		</script>
+
+		<table  style="background-color: yellow; float: right;" >
+			<caption>This is table</caption>
+			<colgroup>
+				<col class="col1"/>
+				<col class="col2"/>
+				<col class="col3"/>
+			</colgroup>
+			<tr>
+				<th>name</th>
+				<th>class</th>
+				<th>session</th>
+			</tr>
+			<tr>
+				<td>mani</td>
+				<td>10th</td>
+				<td>A</td>
+
+			</tr>
+			<tr style="color: red">
+				<td>ram</td>
+				<td>12th</td>
+				<td>B</td>
+			</tr>
+			<tr>
+				<td>syam</td>
+				<td>9th</td>
+				<td>C</td>
+
+			</tr>
+			<tr style="color: green">
+				<td>gopal</td>
+				<td>8th</td>
+				<td>C</td>
+			</tr>
+		</table>
+		<div style="float: left;">
+			<section>
+			<form id="f1" onsubmit="return dispaly()" method="post">
+				<p>user name <input type="text" name="text1"/></p>
+				<p>password <input type="password" name="password1"/></p>
+				<p> date <input type="date" name="date1" pattern="\d{4}-\d{2}-\d{2}" title="yyyy-mm-dd"/></p>
+				<p>color <input type="color" name="color1" value="#333"/></p>
+				<p>Email <input type="Email" name="Email1" multiple=""/></p>
+				<p>number <input type="number"  name="number1" maxlength="10" minlength="0" value="1"/></p>
+				<p>Range (0-100)<input type="Range" name="range1" min="0" maxlength="100" value="20"/></p>
+				<p>serch <input type="serch" name="date1"/></p>
+				<p>URL <input type="URL" name="url1"/></p>
+				<p>Meassage </p>
+				<p><textarea name="textarea1"></textarea></p>
+				<p><input type="submit" value="send"></p>
+				
+			</form>
+
+		</div>	
+			
+		</div>
+	</section>
+	
+
+</div>
+</body>
+</html>

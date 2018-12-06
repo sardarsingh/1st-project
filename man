@@ -1,0 +1,392 @@
+<html>
+  <head>
+	<title>coading by manish</title>
+	<style> 
+     .mn { background-color: green; border: 1px solid powderblue;
+     	color: blue; text-align: center;padding: 50px}
+     .ou{background-color: blue; color: white; text-align: left;} 
+     .er{background-color: yellow; text-align: right;color: blue; padding: 30px;margin: 15px}
+     p{text-align: right; padding: 15px; margin: 15px;color: red}
+     .xz{text-align: center; background-color: yellow; padding: 15px}
+     .rt{padding: 15px}
+    </style>
+  </head>
+	<body class="mn">
+
+		<!-- first file -->	
+		<h1 class="mn">This is vulpine code </h1>
+		<p class="mn"> Coading by manish</p>
+
+		<!-- second file -->
+		<div class="ou">
+			<img  src="https://www.w3schools.com/images/picture.jpg" alt="mountion" width="15%" height="15%">
+			</img>
+		    	
+					<p><a href="https://www.w3schools.com/html/" target="_blank">Home</a></p>
+					<p><a href="file:///office/development/www/4dec-manish.html" target="_blank">login </a></p>
+				
+		</div>	
+		<!-- third file -->
+
+			<p id="mn"></p>
+
+			<button type="button" onclick="ram()"> show</button>
+			<script class="ou">
+				function ram() 
+				{ document.getElementById("mn").innerHTML= "Hi, this is vulpinecode , located in Beawar City at Ajmer (Rajasthan), This is a software company, to devloped software and testing all software ..., company CEO and Founder :Mr. Bhagwat chouhan";}
+		  	</script>
+
+		<!--fourth file -->
+			<div>
+			<h4>This is frame </h4>
+				<iframe src="demo_iframe.htm" style="border: 5px solid red"height="50%" width="50%" name="gty"></iframe>
+				<p><a href="https://www.w3schools.com" target="manish"></a></p>
+				<a href="https://www.google.com/" target="gty
+				">google link</a>
+			</div>
+		<!-- 5th file -->
+					<span> hello
+						vulpinecode
+						abc
+					</span>
+
+						<div><ol class="ou">
+								<li>tea</li>
+								<li>coffie</li>
+								<li>milk</li>
+							  </ol>
+							 <ul>
+								<li>pen</li>
+								<li>pencil</li>
+								<li>copy</li>
+							  </ul>
+						</div>
+ 		<!-- 6th program -->
+							<style>
+ 								table {
+ 										font-family: arial; border-collapse: collapse; width: 100px;
+									 	}
+									 	td,th{border: 1px solid red; text-align: center;padding: 10px;
+									 	}
+							</style>
+										 <table>
+											<h2>table by manish</h2>
+												<tr>
+													<th>name</th>
+													<th>roll number</th>
+													<th>age</th>
+												</tr>
+												<tr>
+													<td>manish</td>
+													<td>123</td>
+													<td>25</td>
+												</tr>
+												<tr>
+													<td>ram</td>
+													<td>256</td>
+													<td>23</td>
+
+												</tr>
+												<tr>
+													<td>syam</td>
+													<td>234</td>
+													<td>26</td>
+												</tr>
+											</table>
+
+		<!--7th program -->
+
+
+							<a href="https://www.google.com/" target="_blank">google link</a>
+		 
+		<!-- 8th program -->
+
+									<style>
+										body{ background-color: green; }
+										h2{ color: green; }
+										p{color: red;}
+									</style>
+
+										<h2>vulpinecode</h2>
+										<p>beawar</p>
+										<p>ajmer</p>
+										<p>rajasthan</p>
+
+		<!-- 9th program -->
+
+								<p class="mn"> (This is abbrivation program)The <abbr title="world wold web">WWW </abbr> is to use for internet websites</p>
+
+		<!-- 10th program -->
+
+
+ 								 <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+								</iframe>
+
+		<!--11 th program -->
+
+								<form class="oi" action="">
+									First name: <br>
+										<input type="text" name="firstname" value="mani" disabled=""> <br>
+									Last name: <br>
+										<input type="text" name="last-name" maxlength="10"> <br>
+								</form>
+
+		<!-- 12th program -->
+
+								<form class="oi" action="text" value=""><br>
+									First name<br>
+										<input type="text" name=""><br>
+									Last name<br>
+										<input type="text" name=""><br> <br>
+										<input type="submit">
+
+								</form>
+
+		<!-- 13th  program -->
+
+								<div class="ou">
+									<h1> to put <strong> password </strong> for the protected</h1>
+									<form action="">
+										<br>
+										User name 
+										<input type="text" name="userid"><br>
+										Password 
+										<input type="password" name="password"><br>
+										<button type="button" onclick="">Submit</button>
+									</form>
+								</div>
+
+		<!--14th program reset the pass-->
+
+						        <div>
+						        	<form action=""><br>
+						        		User name
+						        		<input type="text" name="" value=""><br>
+						        		password
+						        		<input type="password" name="" value=""><br>
+						        		<input type="submit" value="submit">
+						        		<input type="reset">
+						        		
+						        	</form>
+						        </div>
+		<!--15th program radio button				        
+	       						<div class="mn">
+	       							<form>
+	       								<input type="radio" name="gender" value="male">male<br>
+	       								<input type="radio" name="gender" value="female">female<br>
+	       								<input type="radio" name="gender" value="other">other<br>
+	       								<input type="submit" name="submit">
+	       							</form>
+	       						</div> -->
+	    <!--16th program alert message -->
+	    						<div class="rt">
+	    							<h2>Input button like alert
+	    							</h2>
+	    								<input type="button" onclick="alert('donot distrub me')" value="donot click me">
+	    						</div>
+		<!--17 th progrma to put time in form-->
+
+								
+
+								<div class="ou">
+									<form action="">
+										<input type="time" name="user time" value="pari">
+										<input type="submit">
+
+									</form>
+								</div>
+
+		<!-- 18th prgram to serach -->
+								<div class="er">
+										<form action="">
+											<input type="serach" name="google serach" value="manish" >
+											<input type="submit">
+										</form>
+
+			<!-- 19th program to set reange -->
+									<div class="ou">
+										<form action="" method="get">
+											<input type="range" name="points" min="0" max
+											="10">
+											<input type="submit" name="">
+										</form>
+									</div>
+								
+
+			<!--20 th program to set file path-->
+									<div class="ou">
+										<form action="">
+											<input type="file" name="myfile">
+											<input type="submit" name="">
+										</form>
+									</div>
+
+									
+
+			<!--21th program to put emails -->
+									<div class="ou">
+										<form action="">
+										<input type="email" name="email"  value="manish.singh@vulpinecode.com" disabled="" >
+										<input type="submit" value="send to me">
+										</form>
+									</div>	
+								
+			<!--22th program to  set date -->
+									<div class="er">
+										<form action="="">
+											<input type="date" name="" max="1980-12-31"><br>
+											<input type="date" name="" min="2000-01-01"><br>
+											<input type="submit" name="reamber">
+										</form>
+									</div>
+								
+			<!-- 23th program for cheack- button -->
+									<div class="xz">
+										<h1>This is check box program</h1>
+										<form action="">
+											<input type="checkbox" name="" value="boy">boy<br>
+											<input type="checkbox" name="" value="girl">girl<br>
+											<input type="checkbox" name="" value="children">child<br>
+											<input type="checkbox" name="" value="senior cityzn">senior<br>
+											<input type="submit" name="">
+									</div>		
+											<div class="xz">
+												<h1>This is radio button</h1>
+												<input type="radio" name="gender" value="male">male<br>
+			       								<input type="radio" name="gender" value="female">female<br>
+			       								<input type="radio" name="gender" value="other">other<br>		       							
+			       								<input type="submit" name="submit">
+											</div>       								
+	       								</form>
+
+								
+
+			<!-- 24 th program for date select from drop down -->
+			
+									<div class="xz">
+										<select name="bank">
+											<option value="BOB">BOB</option>
+											<option value="SBI">SBI</option>
+											<option value="PNB">PNB</option>
+											<option value="ICICI">ICICI</option>
+										</select>
+										<br>
+									<input type="submit" value="select the bank name" ="ok">
+										
+									</div>	
+
+			<!--25th program for multiple data select-->
+									<div class="xz">
+										<select name="hotel" size="" multiple=""><br>
+											<option value="break fast">Break fast</option><br>
+											<option value="lunch">Lunch</option><br>
+											<option value="dinner">Dinner</option><br>
+											<option value="party">party</option><br>
+											<option value="night stay">night stay</option><br><br>
+											<input type="submit" value="select any 3"><br>
+										</select><br>
+									</div>	
+								</div>		
+
+
+			<!--26 th program for select area-->
+									<div>
+										<form action="">
+											<textarea name="message" style="width: 50%;height: 50%"></textarea><br>
+											<input type="submit" value="send">
+										</form>
+									</div>	
+
+			<!--27th program for video-->
+									<div class="ou">
+										<video width="200" height="200" controls="">
+											<source src="movie.mp4" type="mp4">
+											
+											
+										</video>
+									</div>	
+
+			<!-- 28th program for paly/pause video-->
+									<div>
+										<button type="button" onclick="qw()">play/pause</button>
+										<button type="button" onclick="et()">small</button>
+										<button type="button" onclick="fr()">big</button>
+										<button type="button" onclick="ol()">normal</button>
+										<br><br>
+										<video id="vf" width="150">
+											<source src="mov_bbb.mp4" type="video/mp4">
+											<source src="mov_bbb.ogg" type="video/ogg">		
+										</video>
+									</div> 		
+									<script>
+										var myv=document.getElementById("vf");
+										function qw(){
+											if (myv.pause)
+											myv.play;
+											else 
+												myv.pause();
+										}
+											function fr() {
+												myv.width=560;}
+
+											function et() {
+												myv.width=80;}
+											function ol(){
+												myv.width=420;
+											}	
+
+											
+									</script>
+									<div class="ou">
+										<audio controls="">
+											<source src="horse.ogg" type="audio">
+											<source src="horse.mp3" type="audio">
+
+
+										</audio>
+									
+									</div>
+			<!--29th program to use cvg -->
+			   						<div>
+			   							<h3>This is SVG type program</h3>
+			   							<svg>
+			   								<circle cx="80" cy="80" r="40"
+			   								stroke="white" stroke-width="4" fill="Orange"/>
+			   							</svg>
+
+			   										
+			<!-- 30th program to computer code -->
+									<div>
+										<code>
+											x=5;
+											y=6;
+											z=x+y
+										</code>
+										
+								</div>
+								
+			<!-- 31th program to use java script -->
+								<div>
+									
+									<button type="button" onclick="poi()">show to java script</button>	
+									<h6 id="ch">Hi this is vulpinecode </h6>			
+									<script>
+										function poi(){
+											document.getElementById("ch").style.fontSize="25px";
+											document.getElementById("ch").style.color="red";
+											document.getElementById("ch").style.backgroundColor="white"
+										}
+									</script>
+								</div>
+							</div>
+			<!--32th program to use layout -->
+								<div>
+									
+								</div>
+
+			
+	       								
+										 	
+	</body>
+	  &#60 &#169 &#174Manish &#62
+</html>
